@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    const int MAX = 30;
+    int arr[30];
+    int impares = 0, pares = 0;
+    for(int i = 0; i < MAX; ++i)
+    {
+        int j;
+        cout<<"Escreva o valor da posição "<<(i+1)<<" ";
+        cin>>j;
+        arr[i] = j;
+    }
+    for(int i = 0; i < MAX; ++i)
+    {
+        if(arr[i] % 2 == 0)
+        {
+            pares++;
+        }
+        else
+        {
+            impares++;
+        }
+        for(int k = 0; k<= i; ++k){
+            
+        }
+    }
+    cout<<endl;
+    return 0;
+}
